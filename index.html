@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <!--link a bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!--link a estilo propio - SIEMPRE DEBAJO DEL LINK A BOOTSTRAP-->
+        <link rel="stylesheet" href="./css/styles.css">
+    <title>MQN🍔</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <h1 class="p-3 text-center">MQN🍔</h1>
+        <nav class="navbar navbar-expand-lg colorPropio">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img class="logo" src="./img/MQN-removebg-preview (1).png" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbarmenu" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./pages/sucursales.html">Sucursales</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Comprá
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="./pages/productos.html">Productos</a></li>
+                        <li><a class="dropdown-item" href="./pages/menu.html">Nuestro Menu</a></li>
+                    </ul>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+    </header>
+
+    <main class="section1">
+        <h2 class="text-center p-4">TU HAMBURGUESA FAVORITA</h2>
+        <section class="tu__hamburguesa">
+            <div class="col1">
+                <h3>Pan, Queso, Carne...</h3>
+                <p>Como algo tan simple puede ser tan rico?... nos preguntamos lo mismo todos los dias.</p>
+            </div>
+            <div class="col2">
+                <img class="hamburguesa" src="./img/hamburguesa3.jpg" alt="hamburguesa">
+            </div>
+        </section>
+
+
+        <h2 class="text-center p-4">CONOCE NUESTROS LOCALES</h2>
+
+        <div id="carouselExampleCaptions" class="carousel slide w-50 m-auto p-5 ">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="./img/sucursal1.jpg" class="d-block w-100" alt="sucursal1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>📍Local Palermo</h5>
+                    <p>Direccion ficticia 1234</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="./img/sucursal2.jpg" class="d-block w-100" alt="sucursal2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>📍Local Belgrano</h5>
+                    <p class="direcciones">Direccion ficticia 1234</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="./img/sucursal3.jpg" class="d-block w-100" alt="sucursal3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>📍Local Nuñez</h5>
+                    <p>Direccion ficticia 1234</p>
+                </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+
+        </section>
+        
+    </main>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <img src="./img/MQN-removebg-preview (1).png" alt="logo-footer">
+        <h5>Mail 💌 info@mqnburger.com</h5>
+        <h5>Teléfono ☎ 948584937</h5>
+        </div>
+        <div class="derechos">
+            <h6>Todos los derechos reservados - MQN Smash burgers 2024</h6>
+        </div>
+    </footer>
+
+    <!--link a scripts de bootstrap - siempre se ponen antes de cerrar el body (Linkear en todas la pages)-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

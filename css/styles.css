@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Righteous", sans-serif;
+    src: url(../font/Raleway-Regular.ttf)
+}
+
+body{
+    background-color: beige;
+}
+/*Header*/
+
+.logo{
+    width: 120px;
+}
+.logo:hover{
+    transform: scale(1.2);
+}
+h1 {
+    color: rgb(150, 98, 0);
+    font-family:"Righteous", sans-serif;
+    
+    
+}
+.colorPropio{
+    background-color: rgb(00, 30, 49);
+}
+
+
+.dropdown-menu a{
+    color: rgb(00, 30, 49);
+    font-family:"Righteous", sans-serif;
+}
+
+
+.nav-link{
+    color:beige;
+    font-family: "Righteous", sans-serif;
+}
+
+
+.container-fluid a:hover{
+    color: orange;
+}
+.nav-link:hover{
+    transform: scale(1.2);
+}
+
+
+.header{
+    background-color: rgb(00, 30, 49);
+}
+
+
+/*footer*/
+
+
+.footer{
+    background-color:  rgb(00, 30, 49);
+    padding: 20px;
+}
+
+.footer img{
+width: 120px;
+}
+
+
+.container-fluid h5{
+    text-align: left;
+    color: beige;
+    font-family: "Righteous", sans-serif;
+}
+
+.derechos h6{
+    text-align: center;
+    font-family:"Righteous", sans-serif;
+    color: beige;
+}
+
+
+/*index*/
+
+.section1{
+    background-color: beige;
+}
+
+.tu__hamburguesa {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    margin: 10%;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+h2{
+    font-family:"Righteous", sans-serif;
+    text-align: center;
+    color: orange;
+    padding: 20px;
+    font-weight: 1000;
+    font-size: xxx-large;
+    text-shadow: 
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.tu__hamburguesa h3{
+    font-family:"Righteous", sans-serif;
+    font-weight: 600;
+    font-size: xxx-large;
+    
+}
+
+.tu__hamburguesa p{
+    font-family:"Righteous", sans-serif;
+    font-weight: 100;
+    font-size: smaller;
+
+}
+
+
+.hamburguesa {
+    width: 100%;
+    height: 100%;
+}
+
+
+.tu__hamburguesa {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.tu__hamburguesa div {
+    margin: 1em;
+}
+
+
+.col1 {
+    padding: 1em;
+
+}
+
+
+.tu__hamburguesa div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+} 
+
+.carousel-item img{
+    height: 50%;
+    width: 50%;
+    border-radius: 5px;
+}
+h5{
+    color: white;
+    font-size: x-large;
+    font-weight: 600;
+    text-shadow: 
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+    
+}
+
+
+/*PAGES*/
+
+
+/*Nosotros*/
+h3{
+    font-family:"Righteous", sans-serif;
+    font-size: xxx-large;
+}
+
+.section1 p{
+    font-family:"Righteous", sans-serif;
+    font-weight: 100;
+    font-size: smaller;
+}
+
+.nuestra__historia {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    margin: 5%;
+    margin-bottom: 0%;
+    text-align: left;
+    font-size: 2rem;
+}
+.hamburguesa {
+    margin-left:0px;
+    width: 1000px;
+    height: auto;
+}
+
+
+.nuestra__historia {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.nuestra__historia div {
+    margin: 10px;
+}
+
+
+.col1 {
+    padding: 10px;
+
+}
+
+
+.nuestra__historia div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+
+/*sucursales*/
+
+
+.sucursales {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    margin: 10%;
+    text-align: center;
+    font-size: 2rem;
+}
+.sucursal {
+    margin-left:0px;
+    width: 1000px;
+    height: auto;
+}
+
+
+.sucursales {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.sucursales div {
+    margin: 10px;
+}
+
+
+.sucursales div img {
+    max-width: 500px;
+    height: 300px;
+    border-radius: 2%;
+}
+
+
+/*contacto*/
+
+
+.contacto__formulario{
+    text-align: center;
+    font-size: x-large;
+    width: 500px;
+    margin: 20px auto;
+    background-color: orange;
+    
+}
+
+
+.formulario {
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
+
+.formulario label,
+
+
+.formulario input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.formulario input[type="text"],
+
+.formulario input[type="email"],
+
+.formulario input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+
+.formulario input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.formulario input[type="submit"]:hover {
+    background-color: #ffa500
+}
+
+
+/*productos*/
+
+
+.productos {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    margin: 10%;
+    text-align: center;
+    font-size: 2rem;
+}
+.producto {
+    margin-left:0px;
+    width: 1000px;
+    height: auto;
+}
+
+
+.productos {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.productos div {
+    margin: 10px;
+}
+
+
+.productos div img {
+    max-width: 500px;
+    height: 300px;
+    border-radius: 2%;
+}
+
+
+/*menu*/
+
+
+.hamburguesas {
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    margin: 10%;
+    text-align: center;
+    font-size: 2rem;
+}
+.sucursal {
+    margin-left:0px;
+    width: 1000px;
+    height: auto;
+}
+
+
+.hamburguesas {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.hamburguesas div {
+    margin: 10px;
+}
+
+
+.hamburguesas div img {
+    max-width: 500px;
+    height: 300px;
+    border-radius: 2%;
+}
+
+h4{
+    font-family:"Righteous", sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    padding: 20px;
+}
