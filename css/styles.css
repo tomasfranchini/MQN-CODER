@@ -452,9 +452,9 @@ h4{
         font-size: smaller;
     }
     .section1 div img {
-        max-width: 25rem;
+        max-width: 22rem;
         height:15rem;
-        border-radius: 2%;
+        border-radius: 5%;
     }
 
     .section2{
@@ -500,20 +500,47 @@ h4{
         justify-content: center;
     }
     .hamburguesas div img{
-        max-width: 25rem;
+        max-width: 22rem;
         height:15rem;
-        border-radius: 2%;
+        border-radius: 5%;
+        padding: 2%;
     }
 
     .contacto__formulario{
         text-align: center;
         font-size: x-large;
-        width: 25rem;
+        width: 22rem;
         background-color: orange;
+        border-radius: 3%;
 
             
     }
 
-        
+    .formulario {
+        max-width: 22rem;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 3px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin: auto;
+    } 
+    
+    .container-fluid h5{
+        text-align: left;
+        color: beige;
+        font-family: "Righteous", sans-serif;
+        font-size: medium;
+    }
+    
+    .derechos h6{
+        text-align: center;
+        font-family:"Righteous", sans-serif;
+        color: beige;
+        font-size: small;
+    }
+
+    .footer{
+        background-color:  rgb(00, 30, 49);
+        padding: 2%;
 
     }
