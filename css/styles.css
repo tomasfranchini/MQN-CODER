@@ -11,6 +11,9 @@
 body{
     background-color: beige;
 }
+p{
+    font-family:"Righteous", sans-serif;
+}
 /*Header*/
 
 .logo{
@@ -83,9 +86,6 @@ width: 120px;
 
 /*index*/
 
-.section1{
-    background-color: beige;
-}
 
 .tu__hamburguesa {
     display: flex;
@@ -129,7 +129,7 @@ h2{
 .hamburguesa {
     width: 100%;
     height: 100%;
-}
+    }
 
 
 .tu__hamburguesa {
@@ -140,16 +140,24 @@ h2{
     justify-content: center;
 
 }
+.tu__hamburguesa2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+
+}
 
 
 
 .tu__hamburguesa div {
-    margin: 1em;
+    margin 1%;
 }
 
 
 .col1 {
-    padding: 1em;
+    padding: 1%;
 
 }
 
@@ -161,9 +169,9 @@ h2{
 } 
 
 .carousel-item img{
-    height: 50%;
-    width: 50%;
-    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    border-radius: 2%;
 }
 h5{
     color: white;
@@ -187,13 +195,13 @@ h3{
     font-size: xxx-large;
 }
 
-.section1 p{
+.section2 p{
     font-family:"Righteous", sans-serif;
     font-weight: 100;
     font-size: smaller;
 }
 
-.nuestra__historia {
+.section2 {
     display: flex;
     flex-direction: column;
     align-items: first baseline;
@@ -209,7 +217,7 @@ h3{
 }
 
 
-.nuestra__historia {
+.section2 {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
@@ -220,18 +228,13 @@ h3{
 
 
 
-.nuestra__historia div {
+.section2 div {
     margin: 10px;
-}
-
-
-.col1 {
     padding: 10px;
-
 }
 
 
-.nuestra__historia div img {
+.section2 div img {
     max-width: 100%;
     height: auto;
     border-radius: 2%;
@@ -241,7 +244,7 @@ h3{
 /*sucursales*/
 
 
-.sucursales {
+.section1 {
     display: flex;
     flex-direction: column;
     align-items: first baseline;
@@ -256,25 +259,25 @@ h3{
 }
 
 
-.sucursales {
+.section1 {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
-
 }
 
 
 
-.sucursales div {
+.section1 div {
     margin: 10px;
+    padding: 10px;
 }
 
 
-.sucursales div img {
-    max-width: 500px;
-    height: 300px;
+.section1 div img {
+    max-width: 30rem;
+    height:20rem;
     border-radius: 2%;
 }
 
@@ -359,7 +362,7 @@ h3{
 }
 
 
-.productos {
+.section1 {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
@@ -428,3 +431,77 @@ h4{
     font-size: xx-large;
     padding: 20px;
 }
+.hamburguesas p{
+    font-size: large;
+}
+
+
+/*Media querries*/
+
+
+@media screen and (max-width:480px){
+        .section1{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr;        
+        }
+        .section1{
+            font-family:"Righteous", sans-serif;
+            font-weight: 300;
+            font-size: smaller;
+        }
+        .section1 div img {
+            max-width: 25rem;
+            height:15rem;
+            border-radius: 2%;
+        }
+
+        .section2{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
+        }
+
+        .tu__hamburguesa{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr
+        }
+
+        .tu__hamburguesa h3{
+            font-family:"Righteous", sans-serif;
+            font-weight: 600;
+            font-size: xx-large;
+            
+        }
+
+        .tu__hamburguesa p{
+            font-family:"Righteous", sans-serif;
+            font-weight: 300;
+            font-size: smaller;
+        }
+
+        h2{
+            font-family:"Righteous", sans-serif;
+            text-align: center;
+            color: orange;
+            padding: 2px;
+            font-weight: 1000;
+            font-size: xx-large;
+        }
+            
+
+        .hamburguesas {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
+            align-items: center;
+            justify-content: center;
+        }
+        .hamburguesas div img{
+            max-width: 25rem;
+            height:15rem;
+            border-radius: 2%;
+        }
+
+    }
