@@ -440,68 +440,80 @@ h4{
 
 
 @media screen and (max-width:480px){
-        .section1{
-            display: grid;
-            grid-template-rows: 1fr 1fr 1fr;
-            grid-template-columns: 1fr;        
-        }
-        .section1{
-            font-family:"Righteous", sans-serif;
-            font-weight: 300;
-            font-size: smaller;
-        }
-        .section1 div img {
-            max-width: 25rem;
-            height:15rem;
-            border-radius: 2%;
-        }
 
-        .section2{
-            display: grid;
-            grid-template-rows: 1fr 1fr 1fr 1fr;
-            grid-template-columns: 1fr;
-        }
+    .section1{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;        
+    }
+    .section1{
+        font-family:"Righteous", sans-serif;
+        font-weight: 300;
+        font-size: smaller;
+    }
+    .section1 div img {
+        max-width: 25rem;
+        height:15rem;
+        border-radius: 2%;
+    }
 
-        .tu__hamburguesa{
-            display: grid;
-            grid-template-rows: 1fr 1fr 1fr 1fr;
-            grid-template-columns: 1fr
-        }
+    .section2{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
 
-        .tu__hamburguesa h3{
-            font-family:"Righteous", sans-serif;
-            font-weight: 600;
-            font-size: xx-large;
+    .tu__hamburguesa{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr
+    }
+
+    .tu__hamburguesa h3{
+        font-family:"Righteous", sans-serif;
+        font-weight: 600;
+        font-size: xx-large;
+        
+    }
+
+    .tu__hamburguesa p{
+        font-family:"Righteous", sans-serif;
+        font-weight: 300;
+        font-size: smaller;
+    }
+
+    h2{
+        font-family:"Righteous", sans-serif;
+        text-align: center;
+        color: orange;
+        padding: 2px;
+        font-weight: 1000;
+        font-size: xx-large;
+    }
             
-        }
 
-        .tu__hamburguesa p{
-            font-family:"Righteous", sans-serif;
-            font-weight: 300;
-            font-size: smaller;
-        }
+    .hamburguesas {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .hamburguesas div img{
+        max-width: 25rem;
+        height:15rem;
+        border-radius: 2%;
+    }
 
-        h2{
-            font-family:"Righteous", sans-serif;
-            text-align: center;
-            color: orange;
-            padding: 2px;
-            font-weight: 1000;
-            font-size: xx-large;
-        }
+    .contacto__formulario{
+        text-align: center;
+        font-size: x-large;
+        width: 25rem;
+        background-color: orange;
+
             
+    }
 
-        .hamburguesas {
-            display: grid;
-            grid-template-rows: 1fr 1fr 1fr;
-            grid-template-columns: 1fr;
-            align-items: center;
-            justify-content: center;
-        }
-        .hamburguesas div img{
-            max-width: 25rem;
-            height:15rem;
-            border-radius: 2%;
-        }
+        
 
     }
