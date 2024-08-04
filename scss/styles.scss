@@ -1,0 +1,211 @@
+@import "header";
+@import "footer";
+@import "body";
+@import "index";
+@import "pages";
+@import "main";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Righteous", sans-serif;
+    src: url(../font/Raleway-Regular.ttf)
+}
+
+
+
+
+@media screen and (max-width:480px){
+    body{
+        main{
+            h2{font-family:"Righteous", sans-serif;
+                text-align: center;
+                color: orange;
+                padding: 2px;
+                font-weight: 1000;
+                font-size: xx-large;
+            }
+            .tu__hamburguesa{
+                display: grid;
+                grid-template-rows: 1fr 1fr;
+                grid-template-columns: 1fr;
+                .col1{
+                    h3{
+                        font-family:"Righteous", sans-serif;
+                        font-weight: 600;
+                        font-size: xx-large;
+                    }
+                    p{
+                        font-family:"Righteous", sans-serif;
+                        font-weight: 100;
+                        font-size: smaller;
+                    }
+                }
+            }
+
+        .section2{
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr;
+            
+            .col1{
+                .hamburguesa{
+                    margin-left:0px;
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 2%;
+                }
+                h3{
+                    font-family:"Righteous", sans-serif;
+                    font-weight: 600;
+                    font-size: xx-large;
+                }
+                p{
+                    font-family:"Righteous", sans-serif;
+                    font-weight: 100;
+                    font-size: smaller;
+                }
+            }
+            .col2{
+                margin: 1%;
+                padding: 1%;
+                .hamburguesa{
+                    margin-left:0px;
+                    width: 1000px;
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 2%;
+                }
+                h3{
+                    font-family:"Righteous", sans-serif;
+                    font-weight: 300;
+                    font-size: xxx-large;
+                }
+                p{
+                    font-family:"Righteous", sans-serif;
+                    font-weight: 100;
+                    font-size: smaller;
+                    }
+                }
+            }
+            .section1{
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-columns: 1fr;
+        
+                .col1{
+                    .sucursal{
+                        max-width: 22rem;
+                        height:15rem;
+                        border-radius: 5%;
+                    }
+                    h3{
+                        font-family:"Righteous", sans-serif;
+                        font-weight: 300;
+                        font-size: xxx-large;
+                    }
+                    p{
+                        font-family:"Righteous", sans-serif;
+                        font-weight: 100;
+                        font-size: small;
+                    }
+                }
+            }
+            .contacto__formulario{
+                text-align: center;
+                font-size: x-large;
+                width: 22rem;
+                background-color: orange;
+                border-radius: 3%;
+            }
+            .formulario{
+                max-width: 22rem;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 3px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                margin: auto;
+            }
+            .sectionProductos{
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-columns: 1fr;
+                .col1{
+                    img{
+                    max-width: 22rem;
+                    height:15rem;
+                    border-radius: 5%;
+                    }
+                    h3{
+                        font-family:"Righteous", sans-serif;
+                        font-weight: 300;
+                        font-size: xxx-large;
+                    }
+                    p{
+                        font-family:"Righteous", sans-serif;
+                        font-weight: 100;
+                        font-size: small;
+                    }
+                }
+            }
+            .hamburguesas{
+                display: grid;
+                grid-template-rows: 1fr 1fr 1fr;
+                grid-template-columns: 1fr;
+                align-items: center;
+                justify-content: center;
+                .col1{
+                    img{
+                        max-width: 22rem;
+                        height:15rem;
+                        border-radius: 5%;
+                        padding: 2%;
+                    }
+                    h3{
+                        font-family:"Righteous", sans-serif;
+                        font-weight: 300;
+                        font-size: xxx-large;
+                    }
+                    p{
+                        font-family:"Righteous", sans-serif;
+                        font-weight: 100;
+                        font-size: small;
+                    }
+    
+                }   
+            }
+            h4{
+                font-family:"Righteous", sans-serif;
+                        font-weight: 300;
+                        font-size: x-large;
+            }
+        }
+        footer{
+            background-color:  rgb(00, 30, 49);
+            padding: 2%;
+            .container-fluid{
+                h5{
+                    text-align: left;
+                    color: beige;
+                    font-family: "Righteous", sans-serif;
+                    font-size: medium;
+                }
+            }
+            
+            .derechos{
+                h6{
+                    text-align: center;
+                    font-family:"Righteous", sans-serif;
+                    color: beige;
+                    font-size: small;
+                }
+            }
+        }
+    }
+}
+

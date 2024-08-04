@@ -1,546 +1,522 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.header {
+  background-color: rgb(0, 30, 49);
 }
-@font-face {
-    font-family: "Righteous", sans-serif;
-    src: url(../font/Raleway-Regular.ttf)
+.header h1 {
+  color: rgb(150, 98, 0);
+  font-family: "Righteous", sans-serif;
 }
-
-body{
-    background-color: beige;
+.header .colorPropio {
+  background-color: rgb(0, 30, 49);
 }
-p{
-    font-family:"Righteous", sans-serif;
+.header .colorPropio .container-fluid .logo {
+  width: 120px;
 }
-/*Header*/
-
-.logo{
-    width: 120px;
+.header .colorPropio .container-fluid .logo:hover {
+  transform: scale(1.2);
 }
-.logo:hover{
-    transform: scale(1.2);
+.header .colorPropio ul .nav-link {
+  color: beige;
+  font-family: "Righteous", sans-serif;
 }
-h1 {
-    color: rgb(150, 98, 0);
-    font-family:"Righteous", sans-serif;
-    
-    
+.header .colorPropio ul .nav-link:hover {
+  transform: scale(1.2);
+  color: orange;
 }
-.colorPropio{
-    background-color: rgb(00, 30, 49);
+.header .colorPropio ul .dropdown-menu a {
+  color: rgb(0, 30, 49);
+  font-family: "Righteous", sans-serif;
+}
+.header .colorPropio ul .dropdown-menu a:hover {
+  color: orange;
 }
 
-
-.dropdown-menu a{
-    color: rgb(00, 30, 49);
-    font-family:"Righteous", sans-serif;
+footer {
+  background-color: rgb(0, 30, 49);
+  padding: 20px;
+}
+footer .container-fluid img {
+  width: 120px;
+}
+footer .container-fluid h5 {
+  text-align: left;
+  color: beige;
+  font-family: "Righteous", sans-serif;
+}
+footer .derechos h6 {
+  text-align: center;
+  font-family: "Righteous", sans-serif;
+  color: beige;
 }
 
-
-.nav-link{
-    color:beige;
-    font-family: "Righteous", sans-serif;
+body {
+  background-color: beige;
 }
 
-
-.container-fluid a:hover{
-    color: orange;
-}
-.nav-link:hover{
-    transform: scale(1.2);
-}
-
-
-.header{
-    background-color: rgb(00, 30, 49);
-}
-
-
-/*footer*/
-
-
-.footer{
-    background-color:  rgb(00, 30, 49);
-    padding: 20px;
-}
-
-.footer img{
-width: 120px;
-}
-
-
-.container-fluid h5{
-    text-align: left;
-    color: beige;
-    font-family: "Righteous", sans-serif;
-}
-
-.derechos h6{
-    text-align: center;
-    font-family:"Righteous", sans-serif;
-    color: beige;
-}
-
-
-/*index*/
-
-
+/*Index*/
 .tu__hamburguesa {
-    display: flex;
-    flex-direction: column;
-    align-items: first baseline;
-    margin: 10%;
-    text-align: center;
-    font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  margin: 10%;
+  text-align: center;
+  font-size: 2rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.tu__hamburguesa .col1 {
+  margin: 1%;
+  padding: 1%;
+}
+.tu__hamburguesa .col1 h3 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 600;
+  font-size: xxx-large;
+}
+.tu__hamburguesa .col1 p {
+  font-family: "Righteous", sans-serif;
+  font-weight: 100;
+  font-size: smaller;
+}
+.tu__hamburguesa .col2 .hamburguesa {
+  max-width: 100%;
+  height: auto;
+  border-radius: 2%;
 }
 
+.tu__hamburguesa2 {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.tu__hamburguesa2 .carousel-item img {
+  height: 100%;
+  width: 100%;
+  border-radius: 2%;
+}
+.tu__hamburguesa2 .carousel-item h5 {
+  color: white;
+  font-size: x-large;
+  font-weight: 600;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+.tu__hamburguesa2 .carousel-item p {
+  color: white;
+  font-size: large;
+  font-weight: 300;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
 
-h2{
-    font-family:"Righteous", sans-serif;
+/*Nosotros*/
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  margin: 5%;
+  margin-bottom: 0%;
+  text-align: left;
+  font-size: 2rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.section2 .col1 {
+  margin: 1%;
+  padding: 1%;
+}
+.section2 .col1 .hamburguesa {
+  margin-left: 0px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 2%;
+}
+.section2 .col1 h3 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 600;
+  font-size: xxx-large;
+}
+.section2 .col1 p {
+  font-family: "Righteous", sans-serif;
+  font-weight: 100;
+  font-size: smaller;
+}
+.section2 .col2 {
+  margin: 1%;
+  padding: 1%;
+}
+.section2 .col2 .hamburguesa {
+  margin-left: 0px;
+  width: 1000px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 2%;
+}
+.section2 .col2 h3 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 300;
+  font-size: xxx-large;
+}
+.section2 .col2 p {
+  font-family: "Righteous", sans-serif;
+  font-weight: 100;
+  font-size: smaller;
+}
+
+/*Sucursales*/
+.section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  margin: 10%;
+  text-align: center;
+  font-size: 2rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.section1 .col1 {
+  margin: 10px;
+  padding: 10px;
+}
+.section1 .col1 .sucursal {
+  border-radius: 2%;
+  margin-left: 0px;
+  width: 1000px;
+  height: auto;
+  max-width: 500px;
+  height: 300px;
+}
+.section1 .col1 h3 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 300;
+  font-size: xxx-large;
+}
+.section1 .col1 p {
+  font-family: "Righteous", sans-serif;
+  font-weight: 100;
+  font-size: smaller;
+}
+
+/*Contacto*/
+.contacto__formulario {
+  text-align: center;
+  font-size: x-large;
+  width: 500px;
+  margin: 20px auto;
+  background-color: orange;
+}
+
+.formulario {
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.formulario label,
+.formulario input {
+  display: block;
+  margin-bottom: 10px;
+}
+.formulario input[type=text],
+.formulario input[type=email],
+.formulario input[type=tel] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.formulario input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.formulario input[type=submit]:hover {
+  background-color: #ffa500;
+}
+
+/*Productos*/
+.sectionProductos {
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  margin: 10%;
+  text-align: center;
+  font-size: 2rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.sectionProductos .col1 {
+  margin: 10px;
+  padding: 10px;
+}
+.sectionProductos .col1 img {
+  margin-left: 0px;
+  width: 1000px;
+  height: auto;
+  max-width: 500px;
+  height: 300px;
+  border-radius: 2%;
+}
+.sectionProductos .col1 h3 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 300;
+  font-size: xxx-large;
+}
+.sectionProductos .col1 p {
+  font-family: "Righteous", sans-serif;
+  font-weight: 100;
+  font-size: smaller;
+}
+
+/*menu*/
+.hamburguesas {
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  margin: 10%;
+  text-align: center;
+  font-size: 2rem;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+.hamburguesas .col1 {
+  margin: 10px;
+  padding: 10px;
+}
+.hamburguesas .col1 img {
+  margin-left: 0px;
+  width: 1000px;
+  height: auto;
+  max-width: 500px;
+  height: 300px;
+  border-radius: 2%;
+}
+.hamburguesas .col1 h3 {
+  font-family: "Righteous", sans-serif;
+  font-weight: 300;
+  font-size: xxx-large;
+}
+.hamburguesas .col1 p {
+  font-family: "Righteous", sans-serif;
+  font-weight: 100;
+  font-size: smaller;
+}
+
+h4 {
+  font-family: "Righteous", sans-serif;
+  text-align: center;
+  font-size: xx-large;
+  padding: 20px;
+}
+
+main h2 {
+  font-family: "Righteous", sans-serif;
+  text-align: center;
+  color: orange;
+  padding: 20px;
+  font-weight: 1000;
+  font-size: xxx-large;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Righteous", sans-serif;
+  src: url(../font/Raleway-Regular.ttf);
+}
+@media screen and (max-width: 480px) {
+  body main h2 {
+    font-family: "Righteous", sans-serif;
     text-align: center;
     color: orange;
-    padding: 20px;
+    padding: 2px;
     font-weight: 1000;
-    font-size: xxx-large;
-    text-shadow: 
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
-}
-
-.tu__hamburguesa h3{
-    font-family:"Righteous", sans-serif;
+    font-size: xx-large;
+  }
+  body main .tu__hamburguesa {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  body main .tu__hamburguesa .col1 h3 {
+    font-family: "Righteous", sans-serif;
     font-weight: 600;
-    font-size: xxx-large;
-    
-}
-
-.tu__hamburguesa p{
-    font-family:"Righteous", sans-serif;
+    font-size: xx-large;
+  }
+  body main .tu__hamburguesa .col1 p {
+    font-family: "Righteous", sans-serif;
     font-weight: 100;
     font-size: smaller;
-
-}
-
-
-.hamburguesa {
-    width: 100%;
-    height: 100%;
-    }
-
-
-.tu__hamburguesa {
+  }
+  body main .section2 {
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-
-}
-.tu__hamburguesa2 {
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  body main .section2 .col1 .hamburguesa {
+    margin-left: 0px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+  }
+  body main .section2 .col1 h3 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
+  }
+  body main .section2 .col1 p {
+    font-family: "Righteous", sans-serif;
+    font-weight: 100;
+    font-size: smaller;
+  }
+  body main .section2 .col2 {
+    margin: 1%;
+    padding: 1%;
+  }
+  body main .section2 .col2 .hamburguesa {
+    margin-left: 0px;
+    width: 1000px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+  }
+  body main .section2 .col2 h3 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 300;
+    font-size: xxx-large;
+  }
+  body main .section2 .col2 p {
+    font-family: "Righteous", sans-serif;
+    font-weight: 100;
+    font-size: smaller;
+  }
+  body main .section1 {
     display: grid;
-    grid-template-rows: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  body main .section1 .col1 .sucursal {
+    max-width: 22rem;
+    height: 15rem;
+    border-radius: 5%;
+  }
+  body main .section1 .col1 h3 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 300;
+    font-size: xxx-large;
+  }
+  body main .section1 .col1 p {
+    font-family: "Righteous", sans-serif;
+    font-weight: 100;
+    font-size: small;
+  }
+  body main .contacto__formulario {
+    text-align: center;
+    font-size: x-large;
+    width: 22rem;
+    background-color: orange;
+    border-radius: 3%;
+  }
+  body main .formulario {
+    max-width: 22rem;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+  }
+  body main .sectionProductos {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+  body main .sectionProductos .col1 img {
+    max-width: 22rem;
+    height: 15rem;
+    border-radius: 5%;
+  }
+  body main .sectionProductos .col1 h3 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 300;
+    font-size: xxx-large;
+  }
+  body main .sectionProductos .col1 p {
+    font-family: "Righteous", sans-serif;
+    font-weight: 100;
+    font-size: small;
+  }
+  body main .hamburguesas {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
-
-}
-
-
-
-.tu__hamburguesa div {
-    margin: 1%;
-}
-
-
-.col1 {
-    padding: 1%;
-
-}
-
-
-.tu__hamburguesa div img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 2%;
-} 
-
-.carousel-item img{
-    height: 100%;
-    width: 100%;
-    border-radius: 2%;
-}
-h5{
-    color: white;
-    font-size: x-large;
-    font-weight: 600;
-    text-shadow: 
-    -1px -1px 0 black,
-    1px -1px 0 black,
-    -1px 1px 0 black,
-    1px 1px 0 black;
-    
-}
-
-
-/*PAGES*/
-
-
-/*Nosotros*/
-h3{
-    font-family:"Righteous", sans-serif;
+  }
+  body main .hamburguesas .col1 img {
+    max-width: 22rem;
+    height: 15rem;
+    border-radius: 5%;
+    padding: 2%;
+  }
+  body main .hamburguesas .col1 h3 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 300;
     font-size: xxx-large;
-}
-
-.section2 p{
-    font-family:"Righteous", sans-serif;
+  }
+  body main .hamburguesas .col1 p {
+    font-family: "Righteous", sans-serif;
     font-weight: 100;
-    font-size: smaller;
-}
-
-.section2 {
-    display: flex;
-    flex-direction: column;
-    align-items: first baseline;
-    margin: 5%;
-    margin-bottom: 0%;
-    text-align: left;
-    font-size: 2rem;
-}
-.hamburguesa {
-    margin-left:0px;
-    width: 1000px;
-    height: auto;
-}
-
-
-.section2 {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-
-.section2 div {
-    margin: 10px;
-    padding: 10px;
-}
-
-
-.section2 div img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 2%;
-}
-
-
-/*sucursales*/
-
-
-.section1 {
-    display: flex;
-    flex-direction: column;
-    align-items: first baseline;
-    margin: 10%;
-    text-align: center;
-    font-size: 2rem;
-}
-.sucursal {
-    margin-left:0px;
-    width: 1000px;
-    height: auto;
-}
-
-
-.section1 {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-.section1 div {
-    margin: 10px;
-    padding: 10px;
-}
-
-
-.section1 div img {
-    max-width: 30rem;
-    height:20rem;
-    border-radius: 2%;
-}
-
-
-/*contacto*/
-
-
-.contacto__formulario{
-    text-align: center;
+    font-size: small;
+  }
+  body main h4 {
+    font-family: "Righteous", sans-serif;
+    font-weight: 300;
     font-size: x-large;
-    width: 500px;
-    margin: 20px auto;
-    background-color: orange;
-    
-}
-
-
-.formulario {
-    max-width: 600px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin: auto;
-}
-
-
-.formulario label,
-
-
-.formulario input {
-    display: block;
-    margin-bottom: 10px;
-}
-
-
-.formulario input[type="text"],
-
-.formulario input[type="email"],
-
-.formulario input[type="tel"] {
-    width: calc(100% - 20px);
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-}
-
-
-.formulario input[type="submit"] {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 4px;
-}
-
-
-.formulario input[type="submit"]:hover {
-    background-color: #ffa500
-}
-
-
-/*productos*/
-
-
-.productos {
-    display: flex;
-    flex-direction: column;
-    align-items: first baseline;
-    margin: 10%;
+  }
+  body footer {
+    background-color: rgb(0, 30, 49);
+    padding: 2%;
+  }
+  body footer .container-fluid h5 {
+    text-align: left;
+    color: beige;
+    font-family: "Righteous", sans-serif;
+    font-size: medium;
+  }
+  body footer .derechos h6 {
     text-align: center;
-    font-size: 2rem;
-}
-.producto {
-    margin-left:0px;
-    width: 1000px;
-    height: auto;
+    font-family: "Righteous", sans-serif;
+    color: beige;
+    font-size: small;
+  }
 }
 
-
-.section1 {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-
-.productos div {
-    margin: 10px;
-}
-
-
-.productos div img {
-    max-width: 500px;
-    height: 300px;
-    border-radius: 2%;
-}
-
-
-/*menu*/
-
-
-.hamburguesas {
-    display: flex;
-    flex-direction: column;
-    align-items: first baseline;
-    margin: 10%;
-    text-align: center;
-    font-size: 2rem;
-}
-.sucursal {
-    margin-left:0px;
-    width: 1000px;
-    height: auto;
-}
-
-
-.hamburguesas {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-
-}
-
-
-
-.hamburguesas div {
-    margin: 10px;
-}
-
-
-.hamburguesas div img {
-    max-width: 500px;
-    height: 300px;
-    border-radius: 2%;
-}
-
-h4{
-    font-family:"Righteous", sans-serif;
-    text-align: center;
-    font-size: xx-large;
-    padding: 20px;
-}
-.hamburguesas p{
-    font-size: large;
-}
-
-
-/*Media querries*/
-
-
-@media screen and (max-width:480px){
-
-    .section1{
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr;        
-    }
-    .section1{
-        font-family:"Righteous", sans-serif;
-        font-weight: 300;
-        font-size: smaller;
-    }
-    .section1 div img {
-        max-width: 22rem;
-        height:15rem;
-        border-radius: 5%;
-    }
-
-    .section2{
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr;
-    }
-
-    .tu__hamburguesa{
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr
-    }
-
-    .tu__hamburguesa h3{
-        font-family:"Righteous", sans-serif;
-        font-weight: 600;
-        font-size: xx-large;
-        
-    }
-
-    .tu__hamburguesa p{
-        font-family:"Righteous", sans-serif;
-        font-weight: 300;
-        font-size: smaller;
-    }
-
-    h2{
-        font-family:"Righteous", sans-serif;
-        text-align: center;
-        color: orange;
-        padding: 2px;
-        font-weight: 1000;
-        font-size: xx-large;
-    }
-            
-
-    .hamburguesas {
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr;
-        align-items: center;
-        justify-content: center;
-    }
-    .hamburguesas div img{
-        max-width: 22rem;
-        height:15rem;
-        border-radius: 5%;
-        padding: 2%;
-    }
-
-    .contacto__formulario{
-        text-align: center;
-        font-size: x-large;
-        width: 22rem;
-        background-color: orange;
-        border-radius: 3%;
-
-            
-    }
-
-    .formulario {
-        max-width: 22rem;
-        background-color: #fff;
-        padding: 20px;
-        border-radius: 3px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        margin: auto;
-    } 
-    
-    .container-fluid h5{
-        text-align: left;
-        color: beige;
-        font-family: "Righteous", sans-serif;
-        font-size: medium;
-    }
-    
-    .derechos h6{
-        text-align: center;
-        font-family:"Righteous", sans-serif;
-        color: beige;
-        font-size: small;
-    }
-
-    .footer{
-        background-color:  rgb(00, 30, 49);
-        padding: 2%;
-
-    }
+/*# sourceMappingURL=styles.css.map */

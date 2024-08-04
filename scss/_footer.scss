@@ -1,0 +1,21 @@
+footer{
+    background-color:  rgb(00, 30, 49);
+    padding: 20px;
+    .container-fluid{
+        img{
+            width: 120px;
+        }
+        h5{
+            text-align: left;
+            color: beige;
+            font-family: "Righteous", sans-serif;
+        }
+    }
+    .derechos{
+        h6{
+            text-align: center;
+            font-family:"Righteous", sans-serif;
+            color: beige;
+        }
+    }
+}

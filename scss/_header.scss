@@ -1,0 +1,38 @@
+.header{
+    background-color: rgb(00, 30, 49);
+    h1{
+        color: rgb(150, 98, 0);
+        font-family:"Righteous", sans-serif;
+    }
+    .colorPropio{
+        background-color: rgb(00, 30, 49);
+        
+        .container-fluid{
+                .logo{
+                    width: 120px;
+                    &:hover{
+                        transform: scale(1.2);
+                    }
+                }
+            }
+            ul{
+                .nav-link{
+                    color:beige;
+                font-family: "Righteous", sans-serif;
+                &:hover{
+                    transform: scale(1.2);
+                    color: orange;
+                }
+            }
+            .dropdown-menu{
+                a{
+                    color: rgb(00, 30, 49);
+                    font-family:"Righteous", sans-serif;
+                    &:hover{
+                        color: orange
+                    }
+                }
+            }
+        }
+    }
+}
