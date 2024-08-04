@@ -1,15 +1,16 @@
 @import "var";
 .header{
-    background-color: $azul;
+    background: $azul;
     h1{
-        color: rgb(150, 98, 0);
+        color: rgb(173, 113, 1);
         font-family:"Righteous", sans-serif;
     }
     .colorPropio{
-        background-color: rgb(00, 30, 49);
+        background: linear-gradient(rgb(00, 30, 49),rgb(0, 0, 61));
         
         .container-fluid{
                 .logo{
+                    transition:all 1s;
                     width: 120px;
                     &:hover{
                         transform: scale(1.2);
@@ -21,6 +22,7 @@
                     color:beige;
                 font-family: "Righteous", sans-serif;
                 &:hover{
+                    transition:all 0.75s;
                     transform: scale(1.2);
                     color: orange;
                 }

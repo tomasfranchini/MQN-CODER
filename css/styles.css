@@ -9,16 +9,17 @@
   src: url(../font/Raleway-Regular.ttf);
 }
 .header {
-  background-color: #001e31;
+  background: #001e31;
 }
 .header h1 {
-  color: rgb(150, 98, 0);
+  color: rgb(173, 113, 1);
   font-family: "Righteous", sans-serif;
 }
 .header .colorPropio {
-  background-color: rgb(0, 30, 49);
+  background: linear-gradient(rgb(0, 30, 49), rgb(0, 0, 61));
 }
 .header .colorPropio .container-fluid .logo {
+  transition: all 1s;
   width: 120px;
 }
 .header .colorPropio .container-fluid .logo:hover {
@@ -29,6 +30,7 @@
   font-family: "Righteous", sans-serif;
 }
 .header .colorPropio ul .nav-link:hover {
+  transition: all 0.75s;
   transform: scale(1.2);
   color: orange;
 }
@@ -41,7 +43,7 @@
 }
 
 footer {
-  background-color: rgb(0, 30, 49);
+  background: linear-gradient(rgb(0, 30, 49), rgb(0, 0, 61));
   padding: 20px;
 }
 footer .container-fluid img {
@@ -59,7 +61,7 @@ footer .derechos h6 {
 }
 
 body {
-  background-color: #f5f5dc;
+  background: radial-gradient(#f5f5dc, rgb(240, 217, 175));
 }
 
 /*Index*/
