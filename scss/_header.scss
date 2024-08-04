@@ -1,5 +1,6 @@
+@import "var";
 .header{
-    background-color: rgb(00, 30, 49);
+    background-color: $azul;
     h1{
         color: rgb(150, 98, 0);
         font-family:"Righteous", sans-serif;

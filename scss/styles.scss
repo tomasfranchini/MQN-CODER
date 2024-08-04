@@ -1,11 +1,3 @@
-@import "header";
-@import "footer";
-@import "body";
-@import "index";
-@import "pages";
-@import "main";
-
-
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +8,16 @@
     font-family: "Righteous", sans-serif;
     src: url(../font/Raleway-Regular.ttf)
 }
+
+@import "header";
+@import "footer";
+@import "body";
+@import "index";
+@import "pages";
+@import "main";
+@import "var";
+
+
 
 
 
