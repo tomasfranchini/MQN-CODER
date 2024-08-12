@@ -9,14 +9,14 @@
   src: url(../font/Raleway-Regular.ttf);
 }
 .header {
-  background: #001e31;
+  background-color: #001e31;
 }
 .header h1 {
   color: rgb(173, 113, 1);
   font-family: "Righteous", sans-serif;
 }
 .header .colorPropio {
-  background: linear-gradient(rgb(0, 30, 49), rgb(0, 0, 61));
+  background: linear-gradient(rgb(0, 30, 49), rgb(33, 33, 133));
 }
 .header .colorPropio .container-fluid .logo {
   transition: all 1s;
@@ -62,6 +62,7 @@ footer .derechos h6 {
 
 body {
   background: radial-gradient(#f5f5dc, rgb(240, 217, 175));
+  overflow-x: hidden;
 }
 
 /*Index*/

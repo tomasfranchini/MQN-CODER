@@ -1,12 +1,12 @@
 @import "var";
 .header{
-    background: $azul;
+    background-color: $azul;
     h1{
         color: rgb(173, 113, 1);
         font-family:"Righteous", sans-serif;
     }
     .colorPropio{
-        background: linear-gradient(rgb(00, 30, 49),rgb(0, 0, 61));
+        background: linear-gradient(rgb(00, 30, 49), rgb(33, 33, 133));
         
         .container-fluid{
                 .logo{
